@@ -1,1 +1,1 @@
-print('\n'.join([f"Decimal: {decimal}, Hexadecimal: {hexadecimal}" for decimal, hexadecimal in zip(range(99), map(hex, range(99)))]))
+print('\n'.join([f"Decimal: {i}, Hexadecimal: {hex(i)}" for i in range(99)]))
